@@ -27,8 +27,8 @@ spec:
     spec:
       containers:
         - name: backend
-          image: backend:FA23-BCS-017
-          imagePullPolicy: IfNotPresent
+          image: wdymabdu/backend:FA23-BCS-017
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           env:

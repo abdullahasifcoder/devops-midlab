@@ -27,7 +27,8 @@ spec:
     spec:
       containers:
         - name: postgres
-          image: postgres:latest
+          image: wdymabdu/database:FA23-BCS-017
+          imagePullPolicy: Always
           ports:
             - containerPort: 5432
           env:
